@@ -31,6 +31,8 @@ function verificaCPF (cpf){
     }
     return 'CPF VALIDO'
 }
+
+// Testes
 let cpf = '090.851.019-56'
 console.log(verificaCPF(cpf))
 let cpf2 = '090.851.019-57'
@@ -40,4 +42,4 @@ console.log(verificaCPF(cpf3))
 let cpf4 = '090.851.019-16'
 console.log(verificaCPF(cpf4))
 let cpf5 = '090.85a.019-16'
-console.log(verificaCPF(cpf5))
+console.log(verificaCPF(cpf5)) // Não era pra funcionar
